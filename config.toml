@@ -1,0 +1,32 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Job Coaching Berlin"
+ 
+########################### Default parameters ##########################
+[params]
+logo = "images/logo.png"
+logo_width = "100px"
+# Meta data
+description = "Sie sind auf der Suche nach Arbeit, Ausbildung, Neuorientierung? Ein erfolgreicher Berufseinstieg gelingt durch zielorientiertes und pragmatisches Jobcoaching."
+author = "Mosign"
+ 
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "English"
+languageCode = "en-us"
+contentDir = "data/en"
+weight = 1
+ 
+################################### German language #####################################
+[Languages.de]
+languageName = "Deutsch"
+languageCode = "de-de"
+contentDir = "data/de"
+weight = 2
+
+

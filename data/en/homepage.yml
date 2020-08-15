@@ -1,0 +1,29 @@
+homepage : 
+  enable : true
+  title : Looking for work, training or reorientation?
+  subtitle : A successful career path through focused and pragmatic job coaching.
+  ctabtn : BOOK APPOINTMENT
+  text1 : I will support you proactively in your re-entry or re-orientation in the job market. Through:-
+  text2 : [ Analysing your strenghts and weaknesses,
+	Establishing new career options,
+	Creation of a sound résumé and cover letter,
+	Professional preparation for interviews,
+	Proactive support in the search and application for relavant companies,
+	Counseling for career reorientation and professional development,
+	Finding an appropriate training position
+  ]
+
+  ctatext : Where do need support? Book an appointment!
+  contacttitle : Contact
+  contactinfo : Contact Info
+  elable : E-mail
+  tlable : Telephone
+  slable  : Skype 
+  email : danielmarschall@email.com
+  telefon : +12 345 678 9000
+  skype : danielmarschall
+  formtext : Please reach out to me if you have questions or want to book an appointment!
+  formname : Name
+  formemail : E-Mail
+  formmsg : Message
+  formbtn : SUBMIT

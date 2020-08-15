@@ -1,0 +1,33 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.homepage.homepage.enable }}
+{{ with $data.homepage.homepage }}
+<section id="about">
+    <div class="container ">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <p>
+                {{  .text1 }}
+                </p>
+                <br> <br>
+                <div class="servlist">       
+                    {{ range  .text2 }}
+                    <ul>
+                        <li>
+                        <img src="/img/tick.svg"/> {{ . }}
+                        </li>
+                    </ul>    
+                    {{end}}
+                </div>
+            </div>
+                    <div class="col-md-5">
+                        <img src="/img/jobcoach.jpg" style="width: 100%;   float: left;" alt="Daniel">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    {{end}}
+{{ end }}

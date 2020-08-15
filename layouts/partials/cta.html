@@ -1,0 +1,15 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.homepage.homepage.enable }}
+{{ with $data.homepage.homepage }}
+<section id="cta" class="container-fluid" >
+    <div class="cta text-center">
+        <h2>{{ .ctatext }}</h2>
+        <button type="button" class="btn btn-primary1 btn-lg" data-appointlet-organization="mohan-kumar">
+            {{ .ctabtn }}
+        </button>
+
+    </div>
+</section>
+{{end}}
+{{ end }}

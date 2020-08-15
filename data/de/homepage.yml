@@ -1,0 +1,29 @@
+homepage : 
+  enable : true
+  title : Sie sind auf der Suche nach Arbeit, Ausbildung, Neuorientierung?
+  subtitle : Ein erfolgreicher Berufseinstieg gelingt durch zielorientiertes und pragmatisches Jobcoaching
+  ctabtn : TERMIN BUCHEN
+  text1 : Ich höre Ihnen zu und unterstütze Sie aktiv bei Ihrer beruflichen Neuorientierung und dem (Wieder)-Einstieg in den Arbeitsmarkt. Durch:-
+  text2 : [ Analyse Ihrer Stärken und Talente,
+    Erarbeiten neuer beruflicher Möglichkeiten,
+    Erstellen von aussagekräftigen Lebensläufen und Anschreiben,
+    Professionelles Vorbereiten von Vorstellungsgesprächen,
+    Aktives Unterstützen beim Bewerben und der Suche nach passenden Unternehmen,
+    Berufliche Neuorientierung und Weiterbildungsberatung,
+    Finden eines geeigneten Ausbildungsplatzes
+  ]
+
+  ctatext :  Bei was benötigen Sie Unterstützung? Buchen Sie einen Termin!
+  contacttitle : Kontakt
+  contactinfo : Kontakt Info
+  elable : E-mail
+  tlable : Telefon
+  slable  : Skype 
+  email : danielmarschall@email.com
+  telefon : +12 345 678 9000
+  skype : danielmarschall
+  formtext : Sie haben Fragen oder möchten einen Termin für eine Beratung vereinbaren? Bitte nehmen Sie Kontakt mit mir auf!
+  formname : Name
+  formemail : E-Mail-Adresse
+  formmsg : Nachricht
+  formbtn : SENDEN

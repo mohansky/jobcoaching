@@ -1,0 +1,46 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.homepage.homepage.enable }}
+{{ with $data.homepage.homepage }}
+<section id="kontakt">
+<div class="container">
+    <div class="row">
+    <div class="col-md-6 text-center">
+        <h4>{{  .contactinfo }}</h4>
+        
+        <div class="contact-items">
+          <h6>{{ .elable }}: </h6><b><p>{{  .email }}</p></b> <br>
+          <h6>{{  .tlable }}: </h6><b><p> {{  .telefon }}</p></b><br>
+          <h6>{{  .slable }}: </h6><b><p>{{  .skype }}</p></b>
+        </div>   
+    </div>
+
+    <div class="col-md-6 contact-form"> 
+      <h6>{{ .formtext }}</h6>
+     <form class="row g-3">
+        <div class="col-md-6">
+            <label for="inputName" class="form-label">{{ .formname }}</label>
+            <input type="text" class="form-control" id="inputName">
+          </div>
+        <div class="col-md-6">
+          <label for="inputEmail" class="form-label">{{ .formemail }}</label>
+          <input type="email" class="form-control" id="inputEmail">
+        </div>
+        
+        <div class="col-12">
+          <label for="validationTextarea" class="form-label">{{  .formmsg }}</label>
+          <textarea class="form-control" id="validationTextarea" placeholder="Ihre Nachricht..."> </textarea>
+        </div>
+         
+         
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-primary1">{{ .formbtn }}</button>
+        </div>
+      </form>
+    </div>
+</div>
+</div>
+
+</section>
+{{end}}
+{{ end }}
