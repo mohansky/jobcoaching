@@ -1,4 +1,4 @@
-baseURL = "jobcoachingberlin.netlify.app"
+baseURL = "https://jobcoachingberlin.netlify.app/"
 languageCode = "en-us"
 title = "Job Coaching Berlin"
  
@@ -14,7 +14,6 @@ author = "Mosign"
 contact_form_action = "#" # contact form works with https://formspree.io
 
 
-
 ################################### English language #####################################
 [Languages.en]
 languageName = "English"
@@ -22,6 +21,43 @@ languageCode = "en-us"
 contentDir = "data/en"
 weight = 1
  
+
+######################### english navigation #############################
+# main menu
+[[Languages.en.menu.main]]
+name = "Home"
+URL = "#"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "About"
+URL = "#about"
+weight = 2
+  
+[[Languages.en.menu.main]]
+name = "Contact"
+URL = "#contact"
+weight = 4
+
+ 
+######################### German navigation #############################
+# main menu
+[[Languages.de.menu.main]]
+name = "Start"
+URL = "#"
+weight = 1
+
+[[Languages.de.menu.main]]
+name = "Uber mich"
+URL = "#about"
+weight = 2
+  
+[[Languages.de.menu.main]]
+name = "Kontakt"
+URL = "#contact"
+weight = 4
+ 
+
 ################################### German language #####################################
 [Languages.de]
 languageName = "Deutsch"
