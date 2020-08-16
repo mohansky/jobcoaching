@@ -48,7 +48,7 @@ URL = "#"
 weight = 1
 
 [[Languages.de.menu.main]]
-name = "Uber mich"
+name = "Über mich"
 URL = "#about"
 weight = 2
   
