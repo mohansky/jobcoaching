@@ -35,7 +35,7 @@ select .lang-list option {
 
 /* Hero Section */
 .hero-image { 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(201, 189, 25, 0.26)), url('../img/beratung.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(255, 255, 255, 0.26)), url('../img/beratung.jpg');
     height: 93vh;
     background-attachment: fixed;
     background-position: top center;
