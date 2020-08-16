@@ -10,11 +10,11 @@
 
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ml-auto">
-         <!-- {{ range site.Menus.main }}
+         <!-- -->{{ range site.Menus.main }}
           <li class="nav-item">
-            <a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
           </li>
-          {{ end }} -->
+          {{ end }} 
         </ul>
         <!-- Language List -->
         {{ if .IsTranslated }}
@@ -27,10 +27,10 @@
           {{ if eq $translation.Lang .Lang }}
           {{ $selected := false }}
           {{ if eq $pageLang .Lang}}
-          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink |relLangURL }}" selected>{{ .LanguageName }}
+          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
           </option>
           {{ else }}
-          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink |relLangURL }}">{{ .LanguageName }}</option>
+          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
           {{ end }}
           {{ end }}
           {{ end }}
