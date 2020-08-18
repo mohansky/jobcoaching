@@ -19,19 +19,16 @@ section {
 /* Nabar */
 
 .navbar-nav  .nav-item{
-    padding: 0 1rem;
+    padding: .8rem;     
+    font-weight: 600;
+    transition: 0.5s ease-out;
 }
 
- 
-select .lang-list option {
-    background-color: rgb(60, 179, 113);
-    color: white;
-    padding: .5rem 1rem;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-   
+.navbar-nav .nav-item:hover {
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8);
+}
+
 
 /* Hero Section */
 .hero-image { 
@@ -58,7 +55,14 @@ select .lang-list option {
     font-weight: 900;
     font-size: 2.8rem;
     text-shadow: 2px 2px black;
-    
+  }
+
+  @media screen and (max-width: 768px) {
+    .hero-text h1 {
+        padding: .8rem 0;
+        font-weight: 800;
+        font-size: 2rem;
+    }
   }
 
   .hero-text h2{
@@ -67,6 +71,14 @@ select .lang-list option {
     font-size: 2rem;
     text-shadow: 1px 1px black;
     
+  }
+
+  @media screen and (max-width: 768px) {
+    .hero-text h2 {
+    padding: .8rem 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+    }
   }
 
 .btn-primary1 {
@@ -85,7 +97,11 @@ select .lang-list option {
     color: rgb(105, 105, 105);
 }
 
+/* Section Title*/
 
+.section-title h2{ 
+    padding: 4rem 0;
+}
 
 
 /* About Section */
@@ -125,6 +141,10 @@ select .lang-list option {
 .contact-items, .contact-form {
     padding: 2rem 1rem;
 }
+
+.hidden{
+    display: none;
+}
  
 .contact-items h6, p{
     display: inline;
@@ -135,7 +155,16 @@ select .lang-list option {
 /* Footer Section */
 
 footer{
-    color: white;
     padding: 2rem;
     background-color: rgb(50, 50, 50);
+     
 }
+
+ .footer-link {
+   color: white;
+}
+
+
+.footer-link:hover {
+    color: rgba(255, 255, 255, 0.5);
+ }

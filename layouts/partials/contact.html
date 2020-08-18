@@ -4,20 +4,29 @@
 {{ with $data.homepage.homepage }}
 <section id="contact">
 <div class="container">
+
+  <div class="section-title text-center">
+            
+    <h2>{{  .contacttitle }} </h2>
+  
+    </div>
     <div class="row">
     <div class="col-md-6 text-center">
         <h4>{{  .contactinfo }}</h4>
         
         <div class="contact-items">
-          <h6>{{ .elable }}: </h6><b><p>{{  .email }}</p></b> <br>
-          <h6>{{  .tlable }}: </h6><b><p> {{  .telefon }}</p></b><br>
-          <h6>{{  .slable }}: </h6><b><p>{{  .skype }}</p></b>
+          <h6>{{ .elable }}: </h6><b><p>{{ .email }}</p></b> <br>
+          <h6>{{ .tlable }}: </h6><b><p>{{ .telefon }}</p></b><br>
+          <h6>{{ .slable }}: </h6><b><p>{{ .skype }}</p></b>
         </div>   
     </div>
 
     <div class="col-md-6 contact-form"> 
       <h6>{{ .formtext }}</h6>
-     <form class="row g-3">
+     <form class="row g-3" name="contact" method="POST"  netlify-honeypot="bot-field" data-netlify="true">
+      <p class="hidden">
+        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+      </p>
         <div class="col-md-6">
             <label for="inputName" class="form-label">{{ .formname }}</label>
             <input type="text" class="form-control" id="inputName">
@@ -25,6 +34,22 @@
         <div class="col-md-6">
           <label for="inputEmail" class="form-label">{{ .formemail }}</label>
           <input type="email" class="form-control" id="inputEmail">
+        </div>
+
+        <div class="col-12">
+          <label for="FormSelect"> {{ .formopt }}</label>
+          <select multiple class="form-control" id="FormSelect">
+            <option value="{{ .opt1 }}" >{{ .opt1 }}</option>
+            <option value="{{ .opt1 }}" >{{ .opt2 }}</option>
+            <option value="{{ .opt1 }}" >{{ .opt3 }}</option>
+            <option value="{{ .opt1 }}" >{{ .opt4 }}</option>
+            <option value="{{ .opt1 }}" >{{ .opt5 }}</option>
+          </select>
+        </div>
+
+        <div class="col-12">
+          <label for="formFile"> {{ .formfile }} </label> <br>
+          <input type="file" class="form-control-file" id="formFile">
         </div>
         
         <div class="col-12">
@@ -37,7 +62,12 @@
           <button type="submit" class="btn btn-primary1">{{ .formbtn }}</button>
         </div>
       </form>
-    </div>
+      <br>
+      <div>
+        <p style="font-size: .8rem; line-height: .5;"> „ {{ .formcookietext }} “</p>
+      
+      </div>
+      </div>
 </div>
 </div>
 

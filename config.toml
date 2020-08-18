@@ -1,5 +1,6 @@
-baseURL = "https://jobcoachingberlin.netlify.app/"
-languageCode = "en-us"
+baseURL = "http://example.org/"
+languageCode = "de-de"
+defaultContentLanguage = "de"
 title = "Job Coaching Berlin"
  
 ########################### Default parameters ##########################
@@ -9,60 +10,105 @@ logo_width = "100px"
 # Meta data
 description = "Sie sind auf der Suche nach Arbeit, Ausbildung, Neuorientierung? Ein erfolgreicher Berufseinstieg gelingt durch zielorientiertes und pragmatisches Jobcoaching."
 author = "Mosign"
+email =  "danielmarschall@email.com"
+telefon = "+12 345 678 9000"
+skype = "danielmarschall"
  
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
+
+
+
+################################### German language #####################################
+[Languages.de]
+languageName = "Deutsch"
+languageCode = "de-de"
+contentDir = "content/de"
+weight = 1
+
+######################### German navigation #############################
+# main menu
+[[Languages.de.menu.main]]
+name = "START"
+URL = "#"
+weight = 1
+
+[[Languages.de.menu.main]]
+name = "DIENSTE"
+URL = "#services"
+weight = 2
+
+[[Languages.de.menu.main]]
+name = "PREISE"
+URL = "#tariff"
+weight = 3
+
+[[Languages.de.menu.main]]
+name = "ÜBER MICH"
+URL = "#about"
+weight = 4
+  
+[[Languages.de.menu.main]]
+name = "KONTAKT"
+URL = "#contact"
+weight = 5
+
+
+# footer menu
+[[Languages.de.menu.footer]]
+name = "IMPRESSUM"
+URL = "/impressum"
+weight = 1
+
+[[Languages.de.menu.footer]]
+name = "DATENSCHUTZ"
+URL = "/datenschutz"
+weight = 2
 
 
 ################################### English language #####################################
 [Languages.en]
 languageName = "English"
 languageCode = "en-us"
-contentDir = "data/en"
-weight = 1
+contentDir = "content/en"
+weight = 2
  
 
 ######################### english navigation #############################
 # main menu
 [[Languages.en.menu.main]]
-name = "Home"
+name = "HOME"
 URL = "#"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "About"
-URL = "#about"
+name = "SERVICES"
+URL = "#services"
 weight = 2
+
+[[Languages.en.menu.main]]
+name = "TARIFF"
+URL = "#tariff"
+weight = 3
+
+[[Languages.en.menu.main]]
+name = "ABOUT"
+URL = "#about"
+weight = 4
   
 [[Languages.en.menu.main]]
-name = "Contact"
+name = "CONTACT"
 URL = "#contact"
-weight = 4
+weight = 5
 
- 
-######################### German navigation #############################
-# main menu
-[[Languages.de.menu.main]]
-name = "Start"
-URL = "#"
+# footer menu
+[[Languages.en.menu.footer]]
+name = "IMPRINT"
+URL = "/impressum"
 weight = 1
 
-[[Languages.de.menu.main]]
-name = "Über mich"
-URL = "#about"
+[[Languages.en.menu.footer]]
+name = "DATA PRIVACY"
+URL = "/datenschutz"
 weight = 2
-  
-[[Languages.de.menu.main]]
-name = "Kontakt"
-URL = "#contact"
-weight = 4
  
-
-################################### German language #####################################
-[Languages.de]
-languageName = "Deutsch"
-languageCode = "de-de"
-contentDir = "data/de"
-weight = 2
-
-

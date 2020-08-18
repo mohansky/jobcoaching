@@ -2,30 +2,22 @@
 
 {{ if $data.homepage.homepage.enable }}
 {{ with $data.homepage.homepage }}
-<section id="about">
-    <div class="container ">
-      <div class="container">
+<section id="about" style="background-color: white;">
+    <div class="container" >
+        <div class="section-title text-center">
+            
+            <h2>{{  .abouttitle }} </h2>
+          
+            </div>
         <div class="row">
-            <div class="col-md-7">
-                <p>
-                {{  .text1 }}
-                </p>
-                <br> <br>
-                <div class="servlist">       
-                    {{ range  .text2 }}
-                    <ul>
-                        <li>
-                        <img src="/img/tick.svg"/> {{ . }}
-                        </li>
-                    </ul>    
-                    {{end}}
-                </div>
+            <div class="col-md-10 offset-md-1">
+                <p>{{ .about1 }}</p> <br><br>
+                <p>{{ .about2 }}</p> <br><br>
+                <p>{{ .about3 }}</p> <br><br>
+                <p>{{ .about4 }}</p>
             </div>
-                    <div class="col-md-5">
-                        <img src="/img/jobcoach.jpg" style="width: 100%;   float: left;" alt="Daniel">
-                    </div>
-                </div>
-            </div>
+        </div>
+     
         </div>
     
     </section>

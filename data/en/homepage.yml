@@ -3,8 +3,16 @@ homepage :
   title : Looking for work, training or reorientation?
   subtitle : A successful career path through focused and pragmatic job coaching.
   ctabtn : BOOK APPOINTMENT
-  text1 : I will support you proactively in your re-entry or re-orientation in the job market. Through:-
-  text2 : [ Analysing your strenghts and weaknesses,
+
+  servicestitle : SERVICES
+  tarifftitle : TARIFF
+  abouttitle : ABOUT
+  contacttitle : CONTACT
+
+
+
+  services1 : I will support you proactively in your re-entry or re-orientation in the job market. Through:-
+  services2 : [ Analysing your strenghts and weaknesses,
 	Establishing new career options,
 	Creation of a sound résumé and cover letter,
 	Professional preparation for interviews,
@@ -13,8 +21,25 @@ homepage :
 	Finding an appropriate training position
   ]
 
+  price: 
+    - title : Telephonic conversation
+      cost: no charge
+      description : Request the Coach for a call back at an agreed upon time. 
+    - title : Individual Job coaching 
+      cost: face-to-face  50 Euro/ h 
+      description : One on one Coaching will take place in Wilmersdorf.
+    - title : Individual Job coaching 
+      cost: online  40 Euro/ h
+      description : Coaching will take place via Skype or MS Teams.
+
+  avgs1 : No charge for job seekers with a voucher from the Agentur für Arbeit or from a Jobcenter.
+  avgs2 : The coaching will be carried out in partnership with AYEKOO - Beratung und Coaching UG in Neukölln.
+  avgslink : https://ayekoo-beratung.de/
+  about1 : Daniel Marschall has been working in the pedagogical field for over 10 years and since 2014 as Job coach and career adviser.
+  about2 : In the last few years he has carried out hundreds of coachings on behalf of various training providers. Key elements of his coachings are the competency-and-strength-based analyses of the candidate, in-depth career orientation, drafting and designing of resumes and cover letters and the preparation for interviews. He pays special attention to the acquisition of job positions and finding tailor-made job and training positions. Result oriented action and the attempt to open new doors for his trainees is extremly important for him.  
+  about3 : Through his work in a multi cultural youth center in Kreuzberg and as a career consellor at the Gustav Langenscheidt School in Schoeneberg he gathered comprehensive knowledge of the Berlin school and training market. He is well aware of the difficulties faced by young people looking for training positions. 
+  about4 : In addition Daniel Marschall is also a political scientist and an author. He is also fluent in english and offers coachings in english as well. 
   ctatext : How can I help? Book an appointment!
-  contacttitle : Contact
   contactinfo : Contact Info
   elable : E-mail
   tlable : Telephone
@@ -25,5 +50,13 @@ homepage :
   formtext : Please reach out to me if you have questions or want to book an appointment!
   formname : Name
   formemail : E-Mail
+  formopt : Your primary concern
+  opt1 :  Analyse strenghts and professional reorientation
+  opt2 :  Find a job as soon as possible
+  opt3 :  Find a training position
+  opt4 :  Support with resume and cover letter
+  opt5 :  Training for interviews
+  formfile : Upload your CV
   formmsg : Message
   formbtn : SUBMIT
+  formcookietext : We process your data solely to fullfill our services acc.  Art. 6 Abs. 1 lit b. SGVO. The fields in the online form which are marked required are entries required to complete a contract. Your data will be saved securely and will not be forwarded to a third party. For more information please read our data policy.
