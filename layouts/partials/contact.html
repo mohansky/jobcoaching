@@ -29,16 +29,16 @@
       </p>
         <div class="col-md-6">
             <label for="inputName" class="form-label">{{ .formname }}</label>
-            <input type="text" class="form-control" id="inputName" required>
+            <input type="text" name="name" class="form-control" id="inputName" required>
           </div>
         <div class="col-md-6">
           <label for="inputEmail" class="form-label">{{ .formemail }}</label>
-          <input type="email" class="form-control" id="inputEmail" required>
+          <input type="email" type="email" class="form-control" id="inputEmail" required>
         </div>
 
         <div class="col-12">
           <label for="FormSelect"> {{ .formopt }}</label>
-          <select multiple class="form-control" id="FormSelect">
+          <select multiple class="form-control" name="opt[]" id="FormSelect">
             <option value="{{ .opt1 }}" >{{ .opt1 }}</option>
             <option value="{{ .opt1 }}" >{{ .opt2 }}</option>
             <option value="{{ .opt1 }}" >{{ .opt3 }}</option>
@@ -54,7 +54,7 @@
         
         <div class="col-12">
           <label for="validationTextarea" class="form-label">{{  .formmsg }}</label>
-          <textarea class="form-control" id="validationTextarea" placeholder="Ihre Nachricht..."> </textarea>
+          <textarea class="form-control" name="message" id="validationTextarea" placeholder="Ihre Nachricht..."> </textarea>
         </div>
          
          
