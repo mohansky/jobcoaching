@@ -1,4 +1,4 @@
-baseURL = "berliner-jobcoach.de"
+baseURL = "http://berliner-jobcoach.de/"
 languageCode = "de-de"
 defaultContentLanguage = "de"
 title = "Job Coaching Berlin"
