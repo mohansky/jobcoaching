@@ -1,4 +1,4 @@
-baseURL = "https://jobcoachingberlin.netlify.app/"
+baseURL = "http://example.org/"
 languageCode = "de-de"
 defaultContentLanguage = "de"
 title = "Job Coaching Berlin"
@@ -34,7 +34,7 @@ URL = "#"
 weight = 1
 
 [[Languages.de.menu.main]]
-name = "DIENSTE"
+name = "JOBCOAHING"
 URL = "#services"
 weight = 2
 
@@ -82,7 +82,7 @@ URL = "#"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "SERVICES"
+name = "JOBCOAHING"
 URL = "#services"
 weight = 2
 
