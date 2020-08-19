@@ -37,7 +37,7 @@
         </div>
 
         <div class="col-12">
-          <label for="FormSelect"> {{ .formopt }}</label>
+          <label for="FormSelect" class="form-label"> {{ .formopt }}</label>
           <select multiple class="form-control" name="opt[]" id="FormSelect">
             <option value="{{ .opt1 }}" >{{ .opt1 }}</option>
             <option value="{{ .opt1 }}" >{{ .opt2 }}</option>
@@ -48,7 +48,7 @@
         </div>
 
         <div class="col-12">
-          <label for="formFile"> {{ .formfile }} </label> <br>
+          <label for="formFile" class="form-label"> {{ .formfile }} </label> <br>
           <input type="file" name="file" class="form-control-file" id="formFile">
         </div>
         
