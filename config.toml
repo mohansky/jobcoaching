@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://jobcoachingberlin.netlify.app/"
 languageCode = "de-de"
 defaultContentLanguage = "de"
 title = "Job Coaching Berlin"
