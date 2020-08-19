@@ -15,9 +15,9 @@
        
         
         <div class="contact-items">
-          <h6>{{ .elable }}: </h6><b><p><a href="mailto:{{ .email }}">{{ .email }}</a></p></b> <br>
-          <h6>{{ .tlable }}: </h6><b><p><a href="tel:{{ .telefon }}">{{ .telefon }}</a></p></b><br>
-          <h6>{{ .slable }}: </h6><b><p><a href="skype:{{ .skype }}?call">{{ .skype }}</a> </p></b>
+          <h6>{{ .elable }}: </h6><b><p><a href="mailto:{{ .email }}" style="text-decoration: none; color: #707070;">{{ .email }}</a></p></b> <br>
+          <h6>{{ .tlable }}: </h6><b><p><a href="tel:{{ .telefon }}" style="text-decoration: none; color: #707070;">{{ .telefon }}</a></p></b><br>
+          <h6>{{ .slable }}: </h6><b><p><a href="skype:{{ .skype }}?call" style="text-decoration: none; color: #707070;">{{ .skype }}</a> </p></b>
         </div>   
     </div>
 
@@ -46,12 +46,12 @@
             <option value="{{ .opt1 }}" >{{ .opt5 }}</option>
           </select>
         </div>
-
+<!--
         <div class="col-12">
           <label for="formFile" class="form-label"> {{ .formfile }} </label> <br>
           <input type="file" name="file" class="form-control-file" id="formFile">
         </div>
-        
+ -->       
         <div class="col-12">
           <label for="validationTextarea" class="form-label">{{  .formmsg }}</label>
           <textarea class="form-control" name="message" id="validationTextarea" placeholder="Ihre Nachricht..."> </textarea>
