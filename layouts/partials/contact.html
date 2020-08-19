@@ -15,9 +15,9 @@
        
         
         <div class="contact-items">
-          <h6>{{ .elable }}: </h6><b><p>{{ .email }}</p></b> <br>
-          <h6>{{ .tlable }}: </h6><b><p>{{ .telefon }}</p></b><br>
-          <h6>{{ .slable }}: </h6><b><p>{{ .skype }}</p></b>
+          <h6>{{ .elable }}: </h6><b><p><a href="mailto:{{ .email }}">{{ .email }}</a></p></b> <br>
+          <h6>{{ .tlable }}: </h6><b><p><a href="tel:{{ .telefon }}">{{ .telefon }}</a></p></b><br>
+          <h6>{{ .slable }}: </h6><b><p><a href="skype:{{ .skype }}?call">{{ .skype }}</a> </p></b>
         </div>   
     </div>
 
