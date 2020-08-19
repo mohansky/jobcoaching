@@ -5,10 +5,18 @@
 <section id="tariff">
     <div class="container">
       <div class="section-title text-center">
-            
         <h2>{{  .tarifftitle }} </h2>
-      
         </div>
+          <div class="row">
+            <div class="col-md-10 offset-md-1 card text-center" style=" background-color: #fafafa; border: none; padding: 15px;" >
+              <div class="card-body" style="background-color: #fff; border: solid black 1px; border-radius: 2px;  ">
+                <h5 class="card-title"><b> {{ .avgs1 }}  </b></h5>
+                <h6 class="card-subtitle mb-2 text-muted"> {{ .avgs2 }} </h6>
+                <p class="card-text"> <a href="{{ .avgslink }}" style="text-decoration: none; color: #707070;" target="_blank"> {{ .avgslink }} </a></p>
+              </div>
+            </div>
+          </div>
+        
         <div class="row">
             {{ range  .price }}
             <div class="col-md-4 card text-center" style=" background-color: #fafafa; border: none; padding: 15px;" >
@@ -23,17 +31,7 @@
         </div>
 
         <br><br>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-10 offset-md-1 text-center">
-           
-          <p> {{ .avgs1 }} </p> <br>
-          <p> {{ .avgs2 }} </p>
-          <p> <a href="{{ .avgslink }}" style="text-decoration: none; color: #707070;" target="_blank"> {{ .avgslink }} </a></p>
-      
-        </div>
-      </div>
-        </div>
+       
     </section>
     {{end}}
 {{ end }}
