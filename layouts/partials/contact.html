@@ -57,6 +57,14 @@
           <label for="validationTextarea" class="form-label">{{  .formmsg }}</label>
           <textarea class="form-control" name="message" id="validationTextarea" placeholder="Ihre Nachricht..."> </textarea>
         </div>
+
+        
+        <div class="col-12">
+          <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox">
+          <label for="checkbox" class="form-check-label"><p style="font-size: .8rem; line-height: .5;"> * „ {{ .formcookietext }} “</p> </label>  
+          
+          
+        </div>
          
          
         <div class="col-12 text-center">
@@ -64,10 +72,7 @@
         </div>
       </form>
       <br>
-      <div>
-        <p style="font-size: .8rem; line-height: .5;"> * „ {{ .formcookietext }} “</p>
-      
-      </div>
+       
       </div>
  
 </div>
