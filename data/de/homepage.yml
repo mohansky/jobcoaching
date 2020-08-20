@@ -59,3 +59,5 @@ homepage :
   formmsg : Nachricht
   formbtn : SENDEN
   formcookietext : Wir verarbeiten Ihre Daten außschließlich, um unsere Serviceleistungen gemäß Art. 6 Abs. 1 lit b. SGVO zu erfüllen. Die im Onlineformular als verpflichtend gekennzeichneten Angaben sind für den Vertragsschluss erforderlich. Ihre Daten werden verschlüsselt gespeichert. Es erfolgt keine Weitergabe an Dritte. Weitere Informationen siehe Datenschutzerklärung.
+  formthank : Danke für Ihre Interesse
+  formthankbtn : ZURÜCK

@@ -60,3 +60,5 @@ homepage :
   formmsg : Message
   formbtn : SUBMIT
   formcookietext : We process your data solely to fullfill our services acc.  Art. 6 Abs. 1 lit b. SGVO. The fields in the online form which are marked required are entries required to complete a contract. Your data will be saved securely and will not be forwarded to a third party. For more information please read our data policy.
+  formthank : Thank you for your interest
+  formthankbtn : Go Back
