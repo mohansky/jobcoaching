@@ -1,11 +1,11 @@
-baseURL = "http://berliner-jobcoach.de/"
+baseURL = "https://berliner-jobcoach.de/"
 languageCode = "de-de"
 defaultContentLanguage = "de"
 title = "Job Coaching Berlin"
  
 ########################### Default parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = "/img/jcblogo.svg"
 logo_width = "100px"
 # Meta data
 description = "Sie sind auf der Suche nach Arbeit, Ausbildung, Neuorientierung? Ein erfolgreicher Berufseinstieg gelingt durch zielorientiertes und pragmatisches Jobcoaching."
