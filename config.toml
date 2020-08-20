@@ -1,7 +1,7 @@
 baseURL = "https://berliner-jobcoach.de/"
 languageCode = "de-de"
 defaultContentLanguage = "de"
-title = "Job Coaching Berlin"
+title = "Berliner Jobcoach"
  
 ########################### Default parameters ##########################
 [params]
