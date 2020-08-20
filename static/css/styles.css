@@ -126,12 +126,12 @@ section {
 /* CTA Section */
 #cta {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../img/appointment.jpg');
-    height: 50vh;
+    height: 60vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 8rem 0;
+    padding: 10rem 0;
     color: white;
 }
 
