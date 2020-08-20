@@ -34,7 +34,7 @@ URL = "#"
 weight = 1
 
 [[Languages.de.menu.main]]
-name = "JOBCOAHING"
+name = "JOBCOACHING"
 URL = "#services"
 weight = 2
 
@@ -82,7 +82,7 @@ URL = "#"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "JOBCOAHING"
+name = "JOBCOACHING"
 URL = "#services"
 weight = 2
 
