@@ -25,7 +25,7 @@ section {
 }
 
 .navbar-nav .nav-item:hover {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.925);
 }
 
 
@@ -112,6 +112,13 @@ section {
 .servlist img {
     padding-right: 10px;
 }
+
+ /* Form Thank You Section*/
+
+ #thank{
+     
+     padding: 12rem 0;
+ }
 
 
 
