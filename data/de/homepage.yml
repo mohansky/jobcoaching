@@ -10,7 +10,7 @@ homepage :
   contacttitle : KONTAKT
 
 
-  services1 : Ich höre Ihnen zu und unterstütze Sie aktiv bei Ihrer beruflichen Neuorientierung und dem (Wieder)-Einstieg in den Arbeitsmarkt. Durch:-
+  services1 : Ich höre Ihnen zu und unterstütze Sie aktiv bei Ihrer beruflichen Neuorientierung und dem (Wieder)-Einstieg in den Arbeitsmarkt. Durch
   services2 : [ Analyse Ihrer Stärken und Talente,
     Erarbeiten neuer beruflicher Möglichkeiten,
     Erstellen von aussagekräftigen Lebensläufen und Anschreiben,
@@ -25,14 +25,17 @@ homepage :
       cost: kostenlos
       description : Der Coach ruft Sie gerne zu einem vereinbarten Termin an. 
     - title : Individuelles Jobcoaching 
+      cost: kostenlos 
+      description : Für arbeitslos gemeldete Menschen mit AVGS wird das Coaching in Neukölln durchgeführt. *
+    - title : Individuelles Jobcoaching 
       cost: persönlich  50 Euro/ h 
-      description : Das Coaching wird in Wilmersdorf durchgeführt.
+      description : Das Coaching wird in Wilmersdorf durchgeführt.  
     - title : Indivduelles Jobcoaching 
       cost: online  40 Euro/ h
-      description : Das Coaching wird via Skype oder MS Teams durchgeführt.
+      description : Das Coaching wird via Skype oder MS Teams durchgeführt.  
 
-  avgs1 : Für arbeitssuchend und arbeitslos gemeldete Menschen ist das Jobcoaching mit einem Aktivierungs- und Vermittlungsgutschein (AVGS) der Agentur für Arbeit oder des Jobcenters kostenlos.
-  avgs2 : Das Coaching wird in Kooperation und in den Räumen der AYEKOO - Beratung und Coaching UG in Neukölln durchgeführt
+  avgs1 : Für arbeitssuchend und arbeitslos gemeldete Menschen ist das Jobcoaching mit einem Aktivierungs- und Vermittlungsgutschein (AVGS) der Agentur für Arbeit oder des Jobcenters kostenlos. Das Coaching wird in Kooperation und in den Räumen der AYEKOO - Beratung und Coaching UG in Neukölln durchgeführt.
+  avgs2 : Für arbeitssuchend und arbeitslos gemeldete Menschen ist das Jobcoaching mit einem Aktivierungs- und Vermittlungsgutschein (AVGS) der Agentur für Arbeit oder des Jobcenters kostenlos. Das Coaching wird in Kooperation und in den Räumen der AYEKOO - Beratung und Coaching UG in Neukölln durchgeführt.
   avgslink : https://ayekoo-beratung.de/
   about1 : Daniel Marschall arbeitet seit über 10 Jahren im pädagogischen Bereich und seit 2014 als Jobcoach und Berufsberater. 
   about2 :  Er führte in den den letzten Jahren hunderte Einzelcoachings im Auftrag verschiedener Bilungsträger durch. Wesentliche Elemente seiner Coachings sind die Kompetenz- und Stärkenanalyse der Teilnehmer, die vertiefte Berufsorientierung, das Verfassen  und Designen von Lebensläufen und Anschreiben und die Vorbereitung auf Vorstellungsgespräche.  Sein besonderer Augenmerk gilt der Akquise von Stellen und der aktiven Vermittlung der Teilnehmer in passgenaue Arbeit oder Ausbildung. Dieses ergebnisorientierte Handeln und der Versuch für die Teilnehmer Türen zu öffnen, ist ihm sehr wichtig. 
@@ -57,9 +60,9 @@ homepage :
   opt3 :  Einen Ausbildungsplatz finden
   opt4 :  Unterstützung bei Lebenslauf und Anschreiben
   opt5 :  Training auf Vorstellungsgespräche
-  formfile : Gerne Ihren Lebenslauf hier hochladen
+  formfile : Gerne Ihren Lebenslauf hier hochladen*
   formmsg : Nachricht
   formbtn : SENDEN
-  formcookietext : Wir verarbeiten Ihre Daten außschließlich, um unsere Serviceleistungen gemäß Art. 6 Abs. 1 lit b. SGVO zu erfüllen. Die im Onlineformular als verpflichtend gekennzeichneten Angaben sind für die Bearbeitung Ihrer Anfrage erforderlich. Ihre Daten werden verschlüsselt gespeichert. Es erfolgt keine Weitergabe an Dritte. Weitere Informationen siehe Datenschutzerklärung.
+  formcookietext : Wir verarbeiten Ihre Daten außschließlich, um unsere Serviceleistungen gemäß Art. 6 Abs. 1 lit b. SGVO zu erfüllen. Die im Onlineformular als verpflichtend gekennzeichneten Angaben sind für den Vertragsschluss erforderlich. Ihre Daten werden verschlüsselt gespeichert. Es erfolgt keine Weitergabe an Dritte. Weitere Informationen siehe Datenschutzerklärung.
   formthank : Vielen Dank für Ihre Anfrage. Ihr Berliner Jobcoach meldet sich umgehend bei Ihnen. Gerne können Sie einen konkreten Termin für ein telefonisches Erstgespräch vereinbaren.
   formthankbtn : ZURÜCK

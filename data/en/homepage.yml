@@ -11,7 +11,7 @@ homepage :
 
 
 
-  services1 : I will support you proactively in your re-entry or re-orientation in the job market. Through:-
+  services1 : I will support you proactively in your re-entry or re-orientation in the job market. Through
   services2 : [ Analysing your strenghts and weaknesses,
 	Establishing new career options,
 	Creation of a sound résumé and cover letter,
@@ -24,7 +24,10 @@ homepage :
   price: 
     - title : Telephonic conversation
       cost: no charge
-      description : Request the Coach for a call back at an agreed upon time. 
+      description : Request the Coach for a call back at an agreed upon time.
+    - title : Individuelles Job coaching 
+      cost: no charge
+      description : For job seekers registered with AVGS the coaching will take place in Neukölln. *   
     - title : Individual Job coaching 
       cost: face-to-face  50 Euro/ h 
       description : One on one Coaching will take place in Wilmersdorf.
@@ -32,8 +35,8 @@ homepage :
       cost: online  40 Euro/ h
       description : Coaching will take place via Skype or MS Teams.
 
-  avgs1 : No charge for job seekers with a voucher from the Agentur für Arbeit or from a Jobcenter.
-  avgs2 : The coaching will be carried out in partnership with AYEKOO - Beratung und Coaching UG in Neukölln.
+  avgs1 : No charge for job seekers with a voucher from the Agentur für Arbeit or from a Jobcenter. The coaching will be carried out in partnership with AYEKOO - Beratung und Coaching UG in Neukölln.
+  avgs2 : No charge for job seekers with a voucher from the Agentur für Arbeit or from a Jobcenter. The coaching will be carried out in partnership with AYEKOO - Beratung und Coaching UG in Neukölln.
   avgslink : https://ayekoo-beratung.de/
   about1 : Daniel Marschall has been working in the pedagogical field for over 10 years and since 2014 as Job coach and career adviser.
   about2 : In the last few years he has carried out hundreds of coachings on behalf of various training providers. Key elements of his coachings are the competency-and-strength-based analyses of the candidate, in-depth career orientation, drafting and designing of resumes and cover letters and the preparation for interviews. He pays special attention to the acquisition of job positions and finding tailor-made job and training positions. Result oriented action and the attempt to open new doors for his trainees is extremly important for him.  
