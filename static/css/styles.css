@@ -36,12 +36,12 @@ section {
     height: 93vh;
     background-attachment: fixed;
     background-position: top center;
-    background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     position: relative;
+    background-repeat: no-repeat;
   }
    
 .hero-text {
