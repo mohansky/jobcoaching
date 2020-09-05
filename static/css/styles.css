@@ -30,7 +30,26 @@ section {
 }
 
 
-/* Hero Section */
+/***************************************************************Test*/
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(255, 255, 255, 0.26)), url('../img/beratung.jpg'); 
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0rem;
+    text-align: center;
+    color: #fff;
+    background: #B80135 no-repeat center center;
+    background-size: cover;
+}
+
+.hero-image:after {
+
+}
+/* Hero Section 
 .hero-image { 
     background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(255, 255, 255, 0.26)), url('../img/beratung.jpg');
     height: 93vh;
@@ -42,7 +61,7 @@ section {
     -o-background-size: cover;
     position: relative;
     background-repeat: no-repeat;
-  }
+  }*/
    
 .hero-text {
     text-align: center;
