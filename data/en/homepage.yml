@@ -18,7 +18,8 @@ homepage :
 	Professional preparation for interviews,
 	Proactive support in the search and application for relavant companies,
 	Counseling for career reorientation and professional development,
-	Finding an appropriate training position
+	Finding an appropriate training position,
+  Professional preparation for the exam to obtain the German language certificates Goethe-Zertifikat; Deutsch-Sprachprüfung für den Hochschulzugang; TestDaF; telC; Deutschtest für Zuwander:innen; Repetitorium
   ]
 
   price: 
@@ -27,9 +28,9 @@ homepage :
       description : Request the Coach for a call back at an agreed upon time.
     - title : Individual Job coaching 
       cost: no charge
-      description : For job seekers registered with AVGS the coaching will take place in Neukölln. *   
+      description : For job seekers registered with AVGS the coaching will take place in Neukölln. *
     - title : Individual Job coaching 
-      cost: face-to-face  50 Euro/ h 
+      cost: face-to-face  50 Euro/ h
       description : One on one Coaching will take place in Wilmersdorf.
     - title : Individual Job coaching 
       cost: online  40 Euro/ h
@@ -39,7 +40,7 @@ homepage :
   avgs2 : Online coaching also possible
   avgslink : https://ayekoo-beratung.de/
   about1 : Daniel Marschall has been working in the pedagogical field for over 10 years and since 2014 as Job coach and career adviser.
-  about2 : In the last few years he has carried out hundreds of coachings on behalf of various training providers. Key elements of his coachings are the competency-and-strength-based analyses of the candidate, in-depth career orientation, drafting and designing of resumes and cover letters and the preparation for interviews. He pays special attention to the acquisition of job positions and finding tailor-made job and training positions. Result oriented action and the attempt to open new doors for his trainees is extremly important for him.  
+  about2 : In the last few years he has carried out hundreds of coachings on behalf of various training providers. Key elements of his coachings are the competency-and-strength-based analyses of the candidate, in-depth career orientation, drafting and designing of resumes and cover letters and the preparation for interviews. He pays special attention to the acquisition of job positions and finding tailor-made job and training positions. Result oriented action and the attempt to open new doors for his trainees is extremly important for him. Professional preparation for German language certification exams is an essential part of achieving professional goals.  
   about3 : Through his work in a multi cultural youth center in Kreuzberg and as a career consellor at the Gustav Langenscheidt School in Schoeneberg he gathered comprehensive knowledge of the Berlin school and training market. He is well aware of the difficulties faced by young people looking for training positions. 
   about4 : In addition Daniel Marschall is also a political scientist and an author. He is also fluent in english and offers coachings in english as well. 
   aboutbtn : XING
@@ -61,6 +62,7 @@ homepage :
   opt3 :  Find a training position
   opt4 :  Support with resume and cover letter
   opt5 :  Training for interviews
+  opt6 :  Repetitorium German language certificates 
   formfile : Upload your CV
   formmsg : Message
   formbtn : SUBMIT

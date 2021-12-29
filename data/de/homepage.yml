@@ -18,6 +18,10 @@ homepage :
     Aktives Unterstützen beim Bewerben und der Suche nach passenden Unternehmen,
     Berufliche Neuorientierung und Weiterbildungsberatung,
     Finden eines geeigneten Ausbildungsplatzes
+    Gezielte Sprachförderung; Professionelle Vorbereitung auf die Prüfung
+    zur Erlangung der Deutsch-Sprachtzertifikate  Goethe-Zertifikat;
+    Deutsch-Sprachprüfung für den Hochschulzugang; TestDaF; telC
+    Deutschtest für Zuwander:innen Repetitorium
   ]
 
   price: 
@@ -38,7 +42,7 @@ homepage :
   avgs2 : Nach Absprache auch als Online-Coaching möglich
   avgslink : https://ayekoo-beratung.de/
   about1 : Daniel Marschall arbeitet seit über 10 Jahren im pädagogischen Bereich und seit 2014 als Jobcoach und Berufsberater. 
-  about2 :  Er führte in den den letzten Jahren hunderte Einzelcoachings im Auftrag verschiedener Bildungsträger durch. Wesentliche Elemente seiner Coachings sind die Kompetenz- und Stärkenanalyse der Teilnehmer, die vertiefte Berufsorientierung, das Verfassen  und Designen von Lebensläufen und Anschreiben und die Vorbereitung auf Vorstellungsgespräche.  Sein besonderer Augenmerk gilt der Akquise von Stellen und der aktiven Vermittlung der Teilnehmer in passgenaue Arbeit oder Ausbildung. Dieses ergebnisorientierte Handeln und der Versuch für die Teilnehmer Türen zu öffnen, ist ihm sehr wichtig. 
+  about2 :  Er führte in den den letzten Jahren hunderte Einzelcoachings im Auftrag verschiedener Bildungsträger durch. Wesentliche Elemente seiner Coachings sind die Kompetenz- und Stärkenanalyse der Teilnehmer, die vertiefte Berufsorientierung, das Verfassen  und Designen von Lebensläufen und Anschreiben und die Vorbereitung auf Vorstellungsgespräche.  Sein besonderer Augenmerk gilt der Akquise von Stellen und der aktiven Vermittlung der Teilnehmer in passgenaue Arbeit oder Ausbildung. Dieses ergebnisorientierte Handeln und der Versuch für die Teilnehmer Türen zu öffnen, ist ihm sehr wichtig. Die professionelle Vorbereitung auf die Prüfung zur Erlangung von Deutsch-Sprachtzertifikaten ist ein wesentlicher Bestandteil zum erreichen beruflicher Ziele.
   about3 :  Durch seine  Arbeit in einem multikulturellen Jugendzentrum in Kreuzberg und als Berufsberater der Gustav Langenscheidt Schule in Schöneberg erarbeitete sich  Daniel Marschall auch umfangreiche Kenntnisse des Berliner Schul- und Ausbildungsmarktes. Er ist vertraut mit den Schwierigkeiten mit denen Jugendliche bei der Ausbildungsplatzsuche heutzutage konfrontiert sind. 
   about4 :  Darüberhinaus ist Daniel Marschall Politikwissenschaftler und Buchautor. Er spricht fließend Englisch und ist  in der Lage die Coachings auch in dieser Sprache anzubieten.
   aboutbtn : XING
@@ -60,6 +64,7 @@ homepage :
   opt3 :  Einen Ausbildungsplatz finden
   opt4 :  Unterstützung bei Lebenslauf und Anschreiben
   opt5 :  Training auf Vorstellungsgespräche
+  opt6 :  Repetitorium Deutsch-Sprachzertifikate
   formfile : Gerne Ihren Lebenslauf hier hochladen*
   formmsg : Nachricht
   formbtn : SENDEN
