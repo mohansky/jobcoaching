@@ -63,7 +63,7 @@ homepage :
   opt3 :  Find a training position
   opt4 :  Support with resume and cover letter
   opt5 :  Training for interviews
-  opt6 :  Repetitorium German language certificates 
+  opt6 :  Revision for German language certificates 
   formfile : Upload your CV
   formmsg : Message
   formbtn : SUBMIT
